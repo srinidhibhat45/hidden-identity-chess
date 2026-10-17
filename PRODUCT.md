@@ -11,7 +11,7 @@ Recreate the supplied Hidden Identity Chess rules in a fun, familiar, interactiv
 ## Positioning
 Free placement in the home two ranks, concealed opposing identities, and victory by capturing the king.
 ## Capabilities and Constraints
-Local pass-and-play, computer play, online friend rooms, mobile and desktop, installation and offline local play. The supplied rules include custom castling, en passant, illegal-move penalties, and revealed kings. Digital moves are validated before execution, so illegal attempts never enter the game; the physical game's retrospective penalties are unnecessary. Online play requires a connection.
+Local pass-and-play, computer play, online friend rooms, mobile and desktop, installation and offline local play. The supplied rules include custom castling, en passant, illegal-move penalties, and revealed kings. User requires the bluff-and-challenge mechanic: arbitrary moves, challenges against current or past moves, offender removal plus a chosen penalty, two chosen removals when the offender was already captured, second proven offence loss, and first proven offence loss with revealed kings. Legal-move mode remains available as a convenience. King captures have an explicit review/confirmation step so illegal captures can be challenged. Online play requires a connection.
 ## Brand Commitments
 User: familiar, not too cartoonish and not too formal. User chose code-first implementation.
 ## Evidence on Hand
