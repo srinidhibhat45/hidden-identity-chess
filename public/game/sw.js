@@ -1,0 +1,5 @@
+const CACHE='hidden-chess-v3';
+const ASSETS=['./index.html','./style.css','./app.mjs','./engine.mjs','./pieces.mjs','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png','./assets/manrope.ttf','./assets/manrope-bold.ttf'];
+self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));});
+self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('hidden-chess-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
+self.addEventListener('fetch',e=>{const url=new URL(e.request.url);if(e.request.method!=='GET'||url.origin!==location.origin||!url.pathname.startsWith('/game/'))return;const key=e.request.mode==='navigate'?new URL('./index.html',self.registration.scope).href:e.request;e.respondWith(caches.match(key).then(cached=>cached||fetch(e.request).then(response=>{if(response.ok){const copy=response.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));}return response;})));});

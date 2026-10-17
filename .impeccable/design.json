@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T12:00:09.364166+00:00",
+  "title": "Design System: Hidden Identity Chess",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Forest Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0413 180.59)",
+          "oklch(26% 0.0413 180.59)",
+          "oklch(38% 0.0413 180.59)",
+          "oklch(49% 0.0413 180.59)",
+          "oklch(61% 0.0413 180.59)",
+          "oklch(72% 0.0413 180.59)",
+          "oklch(84% 0.0413 180.59)",
+          "oklch(95% 0.0413 180.59)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Green",
+        "tonalRamp": [
+          "oklch(15% 0.0290 171.02)",
+          "oklch(26% 0.0290 171.02)",
+          "oklch(38% 0.0290 171.02)",
+          "oklch(49% 0.0290 171.02)",
+          "oklch(61% 0.0290 171.02)",
+          "oklch(72% 0.0290 171.02)",
+          "oklch(84% 0.0290 171.02)",
+          "oklch(95% 0.0290 171.02)"
+        ]
+      },
+      "green": {
+        "role": "primary",
+        "displayName": "Playing Green",
+        "tonalRamp": [
+          "oklch(15% 0.0615 173.47)",
+          "oklch(26% 0.0615 173.47)",
+          "oklch(38% 0.0615 173.47)",
+          "oklch(49% 0.0615 173.47)",
+          "oklch(61% 0.0615 173.47)",
+          "oklch(72% 0.0615 173.47)",
+          "oklch(84% 0.0615 173.47)",
+          "oklch(95% 0.0615 173.47)"
+        ]
+      },
+      "deep": {
+        "role": "primary",
+        "displayName": "Lounge Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0446 181.71)",
+          "oklch(26% 0.0446 181.71)",
+          "oklch(38% 0.0446 181.71)",
+          "oklch(49% 0.0446 181.71)",
+          "oklch(61% 0.0446 181.71)",
+          "oklch(72% 0.0446 181.71)",
+          "oklch(84% 0.0446 181.71)",
+          "oklch(95% 0.0446 181.71)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0067 115.70)",
+          "oklch(26% 0.0067 115.70)",
+          "oklch(38% 0.0067 115.70)",
+          "oklch(49% 0.0067 115.70)",
+          "oklch(61% 0.0067 115.70)",
+          "oklch(72% 0.0067 115.70)",
+          "oklch(84% 0.0067 115.70)",
+          "oklch(95% 0.0067 115.70)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Soft White",
+        "tonalRamp": [
+          "oklch(15% 0.0054 95.10)",
+          "oklch(26% 0.0054 95.10)",
+          "oklch(38% 0.0054 95.10)",
+          "oklch(49% 0.0054 95.10)",
+          "oklch(61% 0.0054 95.10)",
+          "oklch(72% 0.0054 95.10)",
+          "oklch(84% 0.0054 95.10)",
+          "oklch(95% 0.0054 95.10)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Soft Divider",
+        "tonalRamp": [
+          "oklch(15% 0.0149 132.48)",
+          "oklch(26% 0.0149 132.48)",
+          "oklch(38% 0.0149 132.48)",
+          "oklch(49% 0.0149 132.48)",
+          "oklch(61% 0.0149 132.48)",
+          "oklch(72% 0.0149 132.48)",
+          "oklch(84% 0.0149 132.48)",
+          "oklch(95% 0.0149 132.48)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Board Sage",
+        "tonalRamp": [
+          "oklch(15% 0.0508 147.78)",
+          "oklch(26% 0.0508 147.78)",
+          "oklch(38% 0.0508 147.78)",
+          "oklch(49% 0.0508 147.78)",
+          "oklch(61% 0.0508 147.78)",
+          "oklch(72% 0.0508 147.78)",
+          "oklch(84% 0.0508 147.78)",
+          "oklch(95% 0.0508 147.78)"
+        ]
+      },
+      "ivory": {
+        "role": "secondary",
+        "displayName": "Board Ivory",
+        "tonalRamp": [
+          "oklch(15% 0.0305 111.02)",
+          "oklch(26% 0.0305 111.02)",
+          "oklch(38% 0.0305 111.02)",
+          "oklch(49% 0.0305 111.02)",
+          "oklch(61% 0.0305 111.02)",
+          "oklch(72% 0.0305 111.02)",
+          "oklch(84% 0.0305 111.02)",
+          "oklch(95% 0.0305 111.02)"
+        ]
+      },
+      "yellow": {
+        "role": "secondary",
+        "displayName": "Warm Selection",
+        "tonalRamp": [
+          "oklch(15% 0.1213 89.02)",
+          "oklch(26% 0.1213 89.02)",
+          "oklch(38% 0.1213 89.02)",
+          "oklch(49% 0.1213 89.02)",
+          "oklch(61% 0.1213 89.02)",
+          "oklch(72% 0.1213 89.02)",
+          "oklch(84% 0.1213 89.02)",
+          "oklch(95% 0.1213 89.02)"
+        ]
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "Clay Danger",
+        "tonalRamp": [
+          "oklch(15% 0.1406 28.05)",
+          "oklch(26% 0.1406 28.05)",
+          "oklch(38% 0.1406 28.05)",
+          "oklch(49% 0.1406 28.05)",
+          "oklch(61% 0.1406 28.05)",
+          "oklch(72% 0.1406 28.05)",
+          "oklch(84% 0.1406 28.05)",
+          "oklch(95% 0.1406 28.05)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Amber Focus",
+        "tonalRamp": [
+          "oklch(15% 0.1302 77.31)",
+          "oklch(26% 0.1302 77.31)",
+          "oklch(38% 0.1302 77.31)",
+          "oklch(49% 0.1302 77.31)",
+          "oklch(61% 0.1302 77.31)",
+          "oklch(72% 0.1302 77.31)",
+          "oklch(84% 0.1302 77.31)",
+          "oklch(95% 0.1302 77.31)"
+        ]
+      },
+      "board-focus": {
+        "role": "neutral",
+        "displayName": "Board Amber Focus",
+        "tonalRamp": [
+          "oklch(15% 0.1037 83.35)",
+          "oklch(26% 0.1037 83.35)",
+          "oklch(38% 0.1037 83.35)",
+          "oklch(49% 0.1037 83.35)",
+          "oklch(61% 0.1037 83.35)",
+          "oklch(72% 0.1037 83.35)",
+          "oklch(84% 0.1037 83.35)",
+          "oklch(95% 0.1037 83.35)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Introductory statement",
+        "purpose": "The compact opening statement; contracts on mobile."
+      },
+      "headline": {
+        "displayName": "Panel heading",
+        "purpose": "Setup and play panel titles."
+      },
+      "body": {
+        "displayName": "Supporting copy",
+        "purpose": "Short panel explanations with open line spacing."
+      },
+      "label": {
+        "displayName": "Field label",
+        "purpose": "Compact extra-bold labels above controls."
+      }
+    },
+    "shadows": [
+      {
+        "name": "table",
+        "value": "0 14px 32px #00000014",
+        "purpose": "Lift the teal playing table above the page."
+      },
+      {
+        "name": "selected-tab",
+        "value": "0 2px 5px #00000010",
+        "purpose": "Lift the selected white mode tile."
+      },
+      {
+        "name": "piece",
+        "value": "drop-shadow(0 3px 1px #00000026)",
+        "purpose": "Give chess silhouettes a small tactile edge."
+      },
+      {
+        "name": "reveal",
+        "value": "0 10px 40px #00000033",
+        "purpose": "Separate transient capture feedback."
+      },
+      {
+        "name": "dialog",
+        "value": "0 20px 70px #00000055",
+        "purpose": "Lift modal surfaces above the dark backdrop."
+      },
+      {
+        "name": "toast",
+        "value": "0 5px 24px #00000026",
+        "purpose": "Separate top-of-screen status feedback."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "background .15s",
+        "purpose": "Primary button and switch state feedback."
+      },
+      {
+        "name": "switch-thumb",
+        "value": "transform .15s",
+        "purpose": "Slide the rule-toggle thumb."
+      },
+      {
+        "name": "land",
+        "value": ".3s cubic-bezier(.16,1,.3,1)",
+        "purpose": "A moved piece settles from translateY(-7px) scale(1.08)."
+      },
+      {
+        "name": "reveal",
+        "value": ".45s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Capture banner rises 16px and resolves a 3px blur."
+      },
+      {
+        "name": "piece-flip",
+        "value": ".6s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Reveal a captured identity from rotateY(90deg)."
+      },
+      {
+        "name": "toast",
+        "value": "transform .2s",
+        "purpose": "Slide feedback down from above the viewport."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none!important;transition:none!important;scroll-behavior:auto!important",
+        "purpose": "Apply to all elements and pseudo-elements for prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1450px"
+      },
+      {
+        "name": "compact-desktop-max",
+        "value": "1260px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "1000px"
+      },
+      {
+        "name": "single-column-max",
+        "value": "760px"
+      },
+      {
+        "name": "narrow-phone-max",
+        "value": "370px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "description": "The next setup or play action.",
+      "html": "<button class=\"ds-primary\"><svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"5\" y=\"10\" width=\"14\" height=\"11\" rx=\"2\"/><path d=\"M8 10V7a4 4 0 0 1 8 0v3\"/></svg> Play against computer <svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary{font-family:Manrope,system-ui,sans-serif;display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:49px;padding:13px 15px;border:0;border-radius:9px;background:var(--green,#265b4d);color:#fffef8;font-size:12px;font-weight:800;cursor:pointer;transition:background .15s}.ds-primary:hover{background:#174535}.ds-primary:focus-visible{outline:3px solid var(--focus,#c28a22);outline-offset:4px;}.ds-primary:disabled{opacity:.5;cursor:default}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "description": "A compact supporting action.",
+      "html": "<button class=\"ds-secondary\">Classic setup <svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-secondary{font-family:Manrope,system-ui,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:41px;padding:10px 13px;border:1px solid #d3ddcf;border-radius:9px;background:var(--white,#fffefa);color:var(--ink,#193b35);font-size:11px;font-weight:700;cursor:pointer}.ds-secondary:hover{background:#e9eedf}.ds-secondary:focus-visible{outline:3px solid var(--focus,#c28a22);outline-offset:4px;}.ds-secondary:disabled{opacity:.5;cursor:default}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "description": "A quiet help or utility action.",
+      "html": "<button class=\"ds-text\">How to play <svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-text{font-family:Manrope,system-ui,sans-serif;display:flex;align-items:center;justify-content:center;gap:7px;min-height:42px;padding:10px 12px;border:0;border-radius:9px;background:transparent;color:var(--ink,#193b35);font-weight:700;cursor:pointer}.ds-text:hover{background:#e5eadf}.ds-text:focus-visible{outline:3px solid var(--focus,#c28a22);outline-offset:4px;}",
+      "refersTo": "button-text"
+    },
+    {
+      "name": "Icon action",
+      "kind": "button",
+      "description": "A circular header or room utility control.",
+      "html": "<button class=\"ds-icon\" aria-label=\"Copy room code\"><svg viewBox=\"0 0 24 24\" width=\"21\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"8\" y=\"8\" width=\"12\" height=\"13\" rx=\"2\"/><path d=\"M15 8V3H3v13h5\"/></svg></button>",
+      "css": ".ds-icon{display:inline-grid;place-items:center;width:39px;height:39px;border:0;border-radius:50%;background:transparent;color:var(--ink,#193b35);cursor:pointer}.ds-icon:hover{background:#e6ebdf}.ds-icon:focus-visible{outline:3px solid var(--focus,#c28a22);outline-offset:4px;}"
+    },
+    {
+      "name": "Room code field",
+      "kind": "input",
+      "description": "Uppercase entry for a private room.",
+      "html": "<label class=\"ds-field\">Room code<input class=\"ds-input\" aria-label=\"Room code\" maxlength=\"7\" placeholder=\"7-letter code\" autocomplete=\"off\" autocapitalize=\"characters\" spellcheck=\"false\"></label>",
+      "css": ".ds-field{font-family:Manrope,system-ui,sans-serif;display:block;color:var(--ink,#193b35);font-size:11px;font-weight:800}.ds-input{font-family:Manrope,system-ui,sans-serif;display:block;width:calc(100% - 26px);margin-top:9px;padding:12px;border:1px solid #c6d3c0;border-radius:8px;background:var(--white,#fffefa);color:var(--ink,#193b35);font-size:14px;font-weight:400;text-transform:uppercase;letter-spacing:2px;caret-color:var(--green,#265b4d)}.ds-input:hover{border-color:var(--green,#265b4d)}.ds-input:focus-visible{outline:3px solid var(--focus,#c28a22);outline-offset:4px;}",
+      "refersTo": "room-input"
+    },
+    {
+      "name": "Play modes",
+      "kind": "nav",
+      "description": "Three equal choices on one tonal track.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Choose how to play\"><button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\">Computer</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\">Online friend</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\">Same device</button></div>",
+      "css": ".ds-tabs{display:flex;gap:3px;padding:4px;border-radius:11px;background:#e6ebe1}.ds-tab{font-family:Manrope,system-ui,sans-serif;flex:1;min-width:0;padding:11px 5px;border:0;border-radius:8px;background:transparent;color:#55685c;font-size:11px;font-weight:700;cursor:pointer}.ds-tab[aria-selected=true]{background:var(--white,#fffefa);color:var(--ink,#193b35);box-shadow:0 2px 5px #00000010}.ds-tab:hover{background:#fffefa99}.ds-tab:focus-visible{outline:3px solid var(--focus,#c28a22);outline-offset:4px;}",
+      "refersTo": "mode-tab-selected"
+    },
+    {
+      "name": "Active turn pill",
+      "kind": "chip",
+      "description": "An active status on the dark playing table.",
+      "html": "<span class=\"ds-pill\">To move</span>",
+      "css": ".ds-pill{font-family:Manrope,system-ui,sans-serif;display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border:1px solid var(--yellow,#f3cf70);border-radius:6px;background:var(--yellow,#f3cf70);color:var(--deep,#183e38);font-size:10px;font-weight:800}",
+      "refersTo": "side-pill-active"
+    },
+    {
+      "name": "Difficulty selector",
+      "kind": "nav",
+      "description": "A compact selected fill within a bordered group.",
+      "html": "<div class=\"ds-segmented\" role=\"group\" aria-label=\"Computer difficulty\"><button aria-pressed=\"true\">Casual</button><button aria-pressed=\"false\">Club</button><button aria-pressed=\"false\">Challenger</button></div>",
+      "css": ".ds-segmented{display:flex;gap:3px;padding:3px;border:1px solid #d5dece;border-radius:9px}.ds-segmented button{font-family:Manrope,system-ui,sans-serif;flex:1;padding:9px 6px;border:0;border-radius:6px;background:transparent;color:var(--muted,#586e66);font-size:11px;font-weight:700;cursor:pointer}.ds-segmented button[aria-pressed=true]{background:#dde8d5;color:var(--deep,#183e38)}.ds-segmented button:hover{background:#e9eedf}.ds-segmented button:focus-visible{outline:3px solid var(--focus,#c28a22);outline-offset:4px;}"
+    },
+    {
+      "name": "Revealed kings switch",
+      "kind": "custom",
+      "description": "A labeled rule choice with a restrained sliding switch.",
+      "html": "<button class=\"ds-toggle\" role=\"switch\" aria-checked=\"true\"><span><strong>Revealed kings</strong><small>Show both kings. Keep the rest a mystery.</small></span><span class=\"ds-switch\" aria-hidden=\"true\"></span></button>",
+      "css": ".ds-toggle{font-family:Manrope,system-ui,sans-serif;display:flex;align-items:center;justify-content:space-between;gap:15px;width:100%;padding:17px 0;border:0;border-top:1px solid var(--line,#dce2d8);border-bottom:1px solid var(--line,#dce2d8);background:none;text-align:left;color:var(--ink,#193b35);cursor:pointer}.ds-toggle strong{display:block;font-size:11px}.ds-toggle small{display:block;margin-top:5px;font-size:10px;color:var(--muted,#586e66)}.ds-switch{position:relative;flex-shrink:0;width:34px;height:20px;border-radius:14px;background:#b9c8b8;transition:background .15s}.ds-switch::after{content:\"\";position:absolute;width:14px;height:14px;left:3px;top:3px;background:white;border-radius:50%;transition:transform .15s}.ds-toggle[aria-checked=true] .ds-switch{background:var(--green,#265b4d)}.ds-toggle[aria-checked=true] .ds-switch::after{transform:translateX(14px)}.ds-toggle:focus-visible{outline:3px solid var(--focus,#c28a22);outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-switch,.ds-switch::after{transition:none}}"
+    },
+    {
+      "name": "Playing table",
+      "kind": "card",
+      "description": "The square board is the visual center, framed by the dark table.",
+      "html": "<section class=\"ds-table\" aria-label=\"Chess board\"><div class=\"ds-player\">The computer · Forest <span>Hidden</span></div><div class=\"ds-board\"><button class=\"ds-square\" aria-label=\"a8, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square ds-dark\" aria-label=\"b8, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square\" aria-label=\"c8, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square ds-dark\" aria-label=\"d8, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square\" aria-label=\"e8, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square ds-dark\" aria-label=\"f8, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square\" aria-label=\"g8, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square ds-dark\" aria-label=\"h8, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square ds-dark\" aria-label=\"a7, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square\" aria-label=\"b7, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square ds-dark\" aria-label=\"c7, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square\" aria-label=\"d7, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square ds-dark\" aria-label=\"e7, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square\" aria-label=\"f7, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square ds-dark\" aria-label=\"g7, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square\" aria-label=\"h7, hidden enemy piece\"><svg viewBox=\"0 0 45 45\" fill=\"#315749\" stroke=\"#a8bea0\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 5l12 5v12c0 8-6 13-12 17-6-4-12-9-12-17V10z\"/><path d=\"M18 17c0-6 10-6 10 0 0 4-5 3-5 7M23 29v.5\" fill=\"none\" stroke=\"#dce6cd\" stroke-width=\"2.3\"/></svg></button><button class=\"ds-square\" aria-label=\"a6, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"b6, empty\"></button><button class=\"ds-square\" aria-label=\"c6, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"d6, empty\"></button><button class=\"ds-square\" aria-label=\"e6, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"f6, empty\"></button><button class=\"ds-square\" aria-label=\"g6, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"h6, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"a5, empty\"></button><button class=\"ds-square\" aria-label=\"b5, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"c5, empty\"></button><button class=\"ds-square\" aria-label=\"d5, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"e5, empty\"></button><button class=\"ds-square\" aria-label=\"f5, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"g5, empty\"></button><button class=\"ds-square\" aria-label=\"h5, empty\"></button><button class=\"ds-square\" aria-label=\"a4, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"b4, empty\"></button><button class=\"ds-square\" aria-label=\"c4, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"d4, empty\"></button><button class=\"ds-square\" aria-label=\"e4, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"f4, empty\"></button><button class=\"ds-square\" aria-label=\"g4, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"h4, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"a3, empty\"></button><button class=\"ds-square\" aria-label=\"b3, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"c3, empty\"></button><button class=\"ds-square\" aria-label=\"d3, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"e3, empty\"></button><button class=\"ds-square\" aria-label=\"f3, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"g3, empty\"></button><button class=\"ds-square\" aria-label=\"h3, empty\"></button><button class=\"ds-square\" aria-label=\"a2, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"b2, empty\"></button><button class=\"ds-square\" aria-label=\"c2, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"d2, empty\"></button><button class=\"ds-square\" aria-label=\"e2, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"f2, empty\"></button><button class=\"ds-square\" aria-label=\"g2, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"h2, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"a1, empty\"></button><button class=\"ds-square\" aria-label=\"b1, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"c1, empty\"></button><button class=\"ds-square\" aria-label=\"d1, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"e1, your king\"><svg viewBox=\"0 0 45 45\" fill=\"#fffef5\" stroke=\"#334e41\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22.5 3v11M18 7h9M16 21c-8-6-3-12 3-8l3.5 3 3.5-3c6-4 11 2 3 8l-2 9H18zM18 30h10l4 5H13zM11 35h23v5H11z\"/></svg></button><button class=\"ds-square\" aria-label=\"f1, empty\"></button><button class=\"ds-square ds-dark\" aria-label=\"g1, empty\"></button><button class=\"ds-square\" aria-label=\"h1, empty\"></button></div><div class=\"ds-player ds-bottom\">You · Ivory <span>Setting up</span></div></section>",
+      "css": ".ds-table{font-family:Manrope,system-ui,sans-serif;max-width:570px;padding:19px 24px 21px;border-radius:17px;background:var(--deep,#183e38);color:#f3f3e9;box-shadow:0 14px 32px #00000014}.ds-player{display:flex;justify-content:space-between;align-items:center;gap:11px;min-height:43px;margin-bottom:15px;font-size:12px;font-weight:700}.ds-player span{padding:5px 9px;border:1px solid #55736a;border-radius:6px;font-size:10px;font-weight:400;color:#dbe8dc}.ds-bottom{margin:16px 0 0}.ds-board{display:grid;grid-template-columns:repeat(8,1fr);aspect-ratio:1;border-radius:4px;overflow:hidden}.ds-square{position:relative;display:grid;place-items:center;aspect-ratio:1;min-width:0;padding:0;border:0;border-radius:0;background:var(--ivory,#e8ead3);cursor:pointer}.ds-dark{background:var(--sage,#91af94)}.ds-square svg{width:78%;height:78%;filter:drop-shadow(0 3px 1px #00000026)}.ds-square:hover::after{content:\"\";position:absolute;inset:0;background:#ffffff18;pointer-events:none}.ds-square:focus-visible{outline:3px solid var(--board-focus,#87640d);outline-offset:-4px;z-index:2}",
+      "refersTo": "board-table"
+    }
+  ],
+  "narrative": {
+    "northStar": "Modern Board-Game Lounge",
+    "overview": "A familiar, relaxed place to play chess with friends. The muted teal table, ivory and sage squares, and geometric chess silhouettes make the game recognizable immediately. Friendly Manrope lettering and softly rounded controls keep the experience neither cartoonish nor formal.\n\nThe board carries the visual weight. The surrounding interface stays quiet, precise, and compact, with a clear next action and deliberate emphasis when a concealed piece is revealed.",
+    "keyCharacteristics": [
+      "A tactile teal table on warm paper.",
+      "Recognizable geometric pieces and shield-shaped concealed identities.",
+      "Quiet controls with warm yellow selection and turn cues.",
+      "A board-first layout on desktop and mobile."
+    ],
+    "rules": [
+      {
+        "name": "The State Color Rule",
+        "body": "Keep yellow tied to selection, turn, reveal, or a high-priority action on a dark surface.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** keep the board dominant and place it before settings on mobile.",
+      "**Do** retain recognizable geometric chess silhouettes and shield-shaped concealed identities.",
+      "**Do** preserve keyboard focus through state updates and provide a visible outline.",
+      "**Do** keep handoff coverage opaque and honor reduced-motion preferences."
+    ],
+    "donts": [
+      "**Don't** introduce cartoon mascots or formal tournament ornament.",
+      "**Don't** use yellow as general surface decoration.",
+      "**Don't** reveal an opponent's identity through a visual or accessibility label.",
+      "**Don't** replace the restrained tone-and-border hierarchy with heavy shadows on every control."
+    ]
+  }
+}

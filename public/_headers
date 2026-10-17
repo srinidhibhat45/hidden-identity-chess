@@ -1,0 +1,4 @@
+/game/sw.js
+  Cache-Control: no-cache
+/game/*.mjs
+  X-Content-Type-Options: nosniff
