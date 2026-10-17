@@ -2,6 +2,11 @@
 
 An installable mobile and desktop game based on the published Triple S Games rules.
 
+[Play the public game](https://hidden-identity-chess-club.soundmite3.chatgpt.site) · [GitHub source](https://github.com/srinidhibhat45/hidden-identity-chess)
+
+## Playing interface
+Zen mode is on by default: the board, players, turn status, and Move / Bluff / Challenge controls stay in view. Moves opens the history and challenge list; More holds guesses, hints, practice undo, sound, rules, installation, and resignation. Exit zen mode on a computer to keep history beside the board. Phone layouts use bottom sheets and place controls beside the board in landscape. Original Staunton-style SVG pieces stay sharp at every board size.
+
 ## Play modes
 - **Computer:** three heuristic styles; the policy uses only its own identities and publicly visible information.
 - **Same device:** private setup and a covered, rotating board between turns.

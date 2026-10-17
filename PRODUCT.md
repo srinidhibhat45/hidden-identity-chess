@@ -13,7 +13,7 @@ Free placement in the home two ranks, concealed opposing identities, and victory
 ## Capabilities and Constraints
 Local pass-and-play, computer play, online friend rooms, mobile and desktop, installation and offline local play. The supplied rules include custom castling, en passant, illegal-move penalties, and revealed kings. User requires the bluff-and-challenge mechanic: arbitrary moves, challenges against current or past moves, offender removal plus a chosen penalty, two chosen removals when the offender was already captured, second proven offence loss, and first proven offence loss with revealed kings. Legal-move mode remains available as a convenience. King captures have an explicit review/confirmation step so illegal captures can be challenged. Online play requires a connection.
 ## Brand Commitments
-User: familiar, not too cartoonish and not too formal. User chose code-first implementation.
+User: familiar, not too cartoonish and not too formal. User chose code-first implementation. User requests a polished mobile interface, clearer chess pieces, minimal text and clutter during play, and a zen appearance. Zen mode defaults on, with secondary controls in sheets. User requests a public GitHub repository named hidden-identity-chess, with all finished work pushed to main.
 ## Evidence on Hand
 https://www.thegamecrafter.com/games/hidden-identity-chess-pieces-only-
 https://www.youtube.com/shorts/nzrES4kASbY

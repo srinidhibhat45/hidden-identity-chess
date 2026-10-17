@@ -1,4 +1,4 @@
-const CACHE='hidden-chess-v5';
+const CACHE='hidden-chess-v7';
 const ASSETS=['./index.html','./style.css','./app.mjs','./engine.mjs','./pieces.mjs','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png','./assets/manrope.ttf','./assets/manrope-bold.ttf'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',e=>{e.waitUntil((async()=>{const keys=await caches.keys();const old=keys.filter(k=>k.startsWith('hidden-chess-')&&k!==CACHE);await Promise.all(old.map(k=>caches.delete(k)));await self.clients.claim();if(old.length){const clients=await self.clients.matchAll({type:'window'});await Promise.all(clients.filter(c=>c.url.startsWith(self.registration.scope)).map(c=>c.navigate(c.url)));}})());});

@@ -9,3 +9,6 @@ STORY: Recognize chess, see the concealed army, arrange your pieces, choose a pa
 FIRST VIEWPORT: Quiet compact header, one short title, large live board left, mode and setup controls right. Primary play action at the bottom of the setup panel. On phones the board fills the width before settings.
 FORM: Modern board-game lounge, grounded #6, seed 51bc3706. Capture reveal is the signature interaction; local handoff covers the entire board.
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
+## Mobile and zen polish
+The user requested a familiar phone UI, minimal text and clutter during play, improved pieces, and a polished thinking-game feel. Keep the teal/ivory/sage world. Setup stays board-led with compact mode selection; secondary options collapse. During play default to a centered board, compact player rows, one state line and a thumb-friendly Move/Bluff/Challenge/Moves/More dock. History and secondary tools move to sheets. Desktop may exit zen for a history panel; landscape puts controls beside the board. Replace geometric placeholders with clearer original Staunton silhouettes. No slogans or footer during games. Confirm essential actions remain accessible in every game phase.
