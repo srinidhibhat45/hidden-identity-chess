@@ -5,7 +5,7 @@ An installable mobile and desktop game based on the published Triple S Games rul
 [Play the public game](https://hidden-identity-chess-club.soundmite3.chatgpt.site) · [GitHub source](https://github.com/srinidhibhat45/hidden-identity-chess)
 
 ## Playing interface
-Zen mode is on by default: the board, players, turn status, and Move / Bluff / Challenge controls stay in view. Moves opens the history and challenge list; More holds guesses, hints, practice undo, sound, rules, installation, and resignation. Exit zen mode on a computer to keep history beside the board. Phone layouts use bottom sheets and place controls beside the board in landscape. Original Staunton-style SVG pieces stay sharp at every board size.
+Zen mode is on by default: the board, players, turn status, and Move / Bluff / Challenge controls stay in view. Moves opens the history and challenge list; More holds guesses, hints, practice undo, sound, rules, installation, and resignation. Exit zen mode on a computer to keep history beside the board. Phone layouts use 48px or larger controls, 56px primary actions, readable labels, and a two-row play dock. Setup actions precede the arrangement board. Bottom sheets hold secondary tools; landscape preserves board square size with vertical scrolling when needed. Original Staunton-style SVG pieces stay sharp at every board size.
 
 ## Play modes
 - **Computer:** three heuristic styles; the policy uses only its own identities and publicly visible information.
@@ -18,7 +18,7 @@ Node 22.13 or later. Install with `npm ci`, then `npm run dev`. Open the printed
 ## Verify
 - `node --test tests/engine.test.mjs tests/challenges.test.mjs`
 - Start the migrated preview, then `node --test tests/online.test.mjs` (set `GAME_URL` if needed).
-- `node --test tests/offline.test.mjs`
+- `node --test tests/offline.test.mjs tests/install.test.mjs`
 - `npm run build`
 
 ## PWA and offline
@@ -34,3 +34,8 @@ Rooms have a 48-hour inactivity expiry. Expired rooms cannot be accessed and are
 
 ## Credits
 Game rules and concept: [Triple S Games / Hidden Identity Chess](https://www.thegamecrafter.com/games/hidden-identity-chess-pieces-only-). This is an independent adaptation, not an official branded release. Original SVG chess icons. Manrope font by Mikhail Sharanda and Mirko Velimirović, under the included SIL Open Font License.
+
+## Installed-app recovery
+The canonical start is `/game/`. Legacy `/game/index.html` shortcuts are supported. The service worker rebuilds navigation responses so hosting redirects cannot cause Chromium `ERR_FAILED`, verifies every offline asset before activation, and avoids caching room data. Installation is offered after the offline save is ready. If an old shortcut remains stuck on its previous worker, open [Restore your installed game](https://hidden-identity-chess-club.soundmite3.chatgpt.site/repair/) once, refresh offline files, then open the game. This preserves local games, guesses, and online seat credentials.
+
+Phone verification uses browser viewports at 360, 384, and 412 CSS pixels plus landscape and desktop; physical Samsung S24 Ultra installation is a separate real-device check.

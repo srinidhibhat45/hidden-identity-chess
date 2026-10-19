@@ -50,6 +50,26 @@ typography:
     fontFamily: "Manrope, system-ui, sans-serif"
     fontSize: "11px"
     lineHeight: 1.5
+  phone-body:
+    fontFamily: "Manrope, system-ui, sans-serif"
+    fontSize: "16px"
+    lineHeight: 1.5
+  phone-label:
+    fontFamily: "Manrope, system-ui, sans-serif"
+    fontSize: "14px"
+    fontWeight: 700
+  phone-action:
+    fontFamily: "Manrope, system-ui, sans-serif"
+    fontSize: "16px"
+    fontWeight: 800
+  phone-player:
+    fontFamily: "Manrope, system-ui, sans-serif"
+    fontSize: "14px"
+    fontWeight: 700
+  phone-status:
+    fontFamily: "Manrope, system-ui, sans-serif"
+    fontSize: "14px"
+    lineHeight: 1.5
 rounded:
   board: "3px"
   segment: "5px"
@@ -60,14 +80,16 @@ rounded:
   tabs: "10px"
   table: "12px"
   switch: "14px"
-  dialog-mobile: "15px"
+  dialog-mobile: "16px"
   dialog: "16px"
   sheet: "18px 18px 0 0"
 spacing:
   compact: "3px"
   small: "8px"
   control: "12px"
-  phone-page: "14px"
+  phone-page: "4px"
+  phone-content: "12px"
+  phone-header: "16px"
   panel: "20px"
   section: "24px"
   desktop-page: "30px"
@@ -136,11 +158,62 @@ components:
     rounded: "{rounded.dialog}"
     padding: "28px"
     width: "480px"
+  button-primary-phone:
+    backgroundColor: "{colors.green}"
+    textColor: "{colors.white}"
+    typography: "{typography.phone-action}"
+    rounded: "{rounded.control}"
+    padding: "14px 16px"
+    height: "56px"
+  button-secondary-phone:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.field}"
+    padding: "12px 16px"
+    height: "48px"
+  button-text-phone:
+    textColor: "{colors.ink}"
+    rounded: "{rounded.field}"
+    padding: "12px 16px"
+    height: "48px"
+  icon-action-phone:
+    textColor: "{colors.ink}"
+    rounded: "{rounded.tabs}"
+    size: "48px"
+  room-input-phone:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.field}"
+    padding: "14px"
+    height: "56px"
+  mode-tab-phone:
+    textColor: "{colors.muted}"
+    typography: "{typography.phone-label}"
+    rounded: "{rounded.mode-tab}"
+    padding: "8px 4px"
+    height: "68px"
+  board-table-phone:
+    backgroundColor: "{colors.deep}"
+    textColor: "{colors.ivory}"
+    rounded: "{rounded.table}"
+    padding: "8px 4px"
+    width: "560px"
+  move-mode-phone:
+    textColor: "{colors.ink}"
+    rounded: "{rounded.compact-control}"
+    padding: "12px"
+    height: "52px"
+  dock-action-phone:
+    textColor: "{colors.muted}"
+    typography: "{typography.phone-label}"
+    rounded: "{rounded.field}"
+    padding: "8px"
+    height: "64px"
   sheet-mobile:
     backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
     rounded: "{rounded.sheet}"
-    padding: "27px 22px max(24px, env(safe-area-inset-bottom))"
+    padding: "30px 20px max(24px, env(safe-area-inset-bottom))"
     width: "100%"
 ---
 
@@ -152,7 +225,7 @@ components:
 
 A familiar, relaxed place to play chess with friends. The muted teal table, ivory and sage squares, and original Staunton-style chess silhouettes make the game recognizable immediately. Friendly Manrope lettering and softly rounded controls keep the experience neither cartoonish nor formal.
 
-The board carries the visual weight. Setup keeps arrangement and the next action clear; active play defaults to zen with compact player rows, one state line, and a small action dock. Secondary tools and move history open on demand. Capture reveals remain a deliberate moment of emphasis.
+The board carries the visual weight. Phone setup puts the play controls before the arrangement board so the next action is visible immediately; active play defaults to zen with compact player rows, one state line, and a thumb-friendly two-row phone dock. Secondary tools and move history open on demand. Capture reveals remain a deliberate moment of emphasis.
 
 **Key Characteristics:**
 - A tactile teal table on warm paper.
@@ -188,13 +261,13 @@ The palette combines a grounded green room with light, warm playing surfaces. Th
 
 **Display and Body Font:** self-hosted Manrope, with system-ui and sans-serif fallbacks. The regular font supports weights 400–600; the bold file supports 700–800. One clean family connects board, controls, and sheets.
 
-- **Display:** setup introduction only; 33px/1.2, weight 800, tracking −1.2px. It becomes 29px at 1150px, 27px with −0.9px tracking at 760px, and 24px at 360px.
-- **Headline:** setup panel 24px/1.3, weight 800, tracking −0.7px; 22px on phones. Dialog titles use 23px/1.3 with −0.6px tracking; move headings use 21px.
-- **Body:** panel descriptions 13px/1.7; 12px on phones. Dialog copy is 13px/1.8. Keep instructions short and attached to their action.
-- **Label:** 11px, weight 700; primary actions use 13px/800, secondary actions 12px/700. Dock captions and secondary player states use 10px.
-- **Player:** names use 12px/700, reducing to 11px on phones. Captured pieces sit inline rather than adding another text row.
-- **Status:** one centered 11px/1.5 line with tabular numerals; 10px at 360px. Move history also uses tabular numerals, at 12px desktop / 13px phone.
-- Coordinates use 9px, reducing to 8px on phones. Room-code input uses 16px with 2px tracking and uppercase text; room invitation codes use 1px tracking.
+- **Display:** setup introduction only; 33px/1.2, weight 800, tracking −1.2px. It becomes 29px at 1150px, 28px with −0.8px tracking in the phone layout, and 26px at 360px.
+- **Headline:** setup panel 24px/1.3, weight 800, tracking −0.7px. Dialog titles use 23px/1.3 with −0.6px tracking on desktop and 24px on phones; move headings use 21px desktop / 24px phone.
+- **Body:** panel descriptions 13px/1.7 on desktop and 16px/1.5 on phones. Dialog copy is 13px/1.8 desktop / 16px/1.65 phone. Keep instructions short and attached to their action.
+- **Label:** desktop labels use 11px/700, primary actions 13px/800, secondary actions 12px/700, and dock captions 10px. Phone dock and difficulty labels use 14px; primary, secondary, text, and Move/Bluff actions use 16px. Phone mode tabs use 14px, reducing to 13px at 360px. Supporting phone state and options copy may use 12–13px.
+- **Player:** names use 12px/700 desktop / 14px phone. Captured pieces sit inline rather than adding another text row; secondary player states use 10px desktop / 12px phone.
+- **Status:** one centered 11px/1.5 desktop / 14px/1.5 phone line with tabular numerals. Move history also uses tabular numerals, at 12px desktop / 15px phone.
+- Coordinates use 9px desktop / 10px phone. Room-code input uses 16px desktop / 18px phone, with 2px tracking and uppercase text; room invitation codes use 1px tracking.
 
 ## Layout
 
@@ -207,13 +280,18 @@ The palette combines a grounded green room with light, warm playing surfaces. Th
 **Responsive states.**
 - At 1150px and below: 30px page gutters, setup panel 300px, gap 27px, and smaller introduction/tab padding.
 - At 920px and below: setup introduction and tabs stack, tabs fill their track, panel becomes 270px / gap 22px. Standard play history becomes 240px / gap 22px. Supporting player captions disappear.
-- At 760px and below: setup becomes board-first in one column; table and panel cap at 560px. Header is 58px, page gutters 14px, top padding 16px; table padding is 6px 8px and radius 9px. Player rows shrink from 38px to 31px. In-game header is 54px, page gutters 6px, top padding 4px; both zen and standard hide inline history and use the dock/sheets. Table, status, and dock cap at 560px. Dock actions have 55px minimum width/height; Move and Bluff retain a 44px minimum height. Respect bottom safe-area padding.
-- At 360px and below: setup gutters 10px, game gutters 4px, dock actions 50px minimum width, and shorter type/padding keep the action row usable.
-- In landscape at maximum height 600px: header is 46px. Zen uses `min(380px, calc(100dvh - 150px))` board size, with the table to the left and a 240px status/control column to the right, separated by 20px. Move/Bluff occupies its own control row; other dock actions share the next row. The overall layout caps at `calc(100vw - 24px)`. Player rows are 25px, Move/Bluff 38px minimum height, dock actions 45px minimum height.
+- The full phone layout applies at 760px width and below, and whenever height is at most 600px and width is at most 1100px. Short landscape receives the same readable type, touch controls, setup ordering, and sheets as portrait.
+- In the phone layout: setup is one column with the setup panel before the board; table and play controls cap at 560px, with a 536px setup-panel cap. Header is 64px with 16px gutters; page gutters are 4px, setup top padding 16px, and game top padding 6px. The setup introduction has 12px inner gutters. Table padding is 8px 4px with 12px corners. Player rows are 36px high. The square board takes the available table width rather than the desktop viewport-height size formula. Both zen and standard hide inline history and use sheets. Phone labels and controls remain readable; allow document scrolling when content exceeds the viewport.
+- The phone dock has two rows: Move/Bluff fills the first, while Challenge, Moves, and More share three equal columns beneath, with an 8px gap. Move/Bluff buttons are 52px minimum height; dock actions are 64px. Review puts its 56px primary action across the first row, with supporting actions below. Penalty instructions span the top row. Respect safe-area padding at the top, sides, and bottom.
+- At 360px and below: brand name becomes 15px, introduction 26px, and mode-tab captions 13px; keep the full touch targets and two-row dock.
+- In landscape at maximum height 600px and maximum width 1100px: header is 56px. Both zen and standard place the table left and a 240–280px state/control column right, separated by 20px. Board size is `clamp(352px, 43vw, 400px)`; its table width adds 20px. The layout caps at `calc(100% - 32px)`. Move/Bluff remains 48px minimum height, dock actions 64px, and status/labels 14px. Preserve at least 44px squares and allow vertical scroll instead of shrinking the board to fit the short viewport.
+- On any coarse pointer, non-board buttons, disclosure summaries, and inputs have a 48px minimum height, and icon actions a 48px minimum width. Board squares keep their square grid geometry.
 
 **Online lobby.** Before joining a room, hide the table and center a maximum-430px lobby with Create a room and the Room code / Join row. Keep Game options collapsed beneath. On phones the introductory slogan is hidden in this lobby. Once a room exists, restore private board arrangement with compact room invitation information.
 
-**Sheets.** Desktop tools/history open as centered dialogs, maximum 480px wide and 85dvh tall. At 760px and below, `data-sheet` dialogs become full-width bottom sheets, maximum 82dvh, with a small sage grab mark, safe-area bottom padding, and independently scrolling move history (50dvh maximum).
+**Sheets.** Desktop tools/history open as centered dialogs, maximum 480px wide and 85dvh tall. In the full phone layout, `data-sheet` dialogs become full-width bottom sheets, maximum 90dvh, with a 36×4px sage grab mark, safe-area bottom padding, and independently scrolling move history (48dvh maximum). Other phone dialogs scroll within `calc(100dvh - 32px)`; dialog copy uses the readable phone scale.
+
+**Standalone recovery.** The `/repair/` page is a separate, centered utility surface using the same paper, ink, muted, green, teal, yellow selection, and amber focus palette. Its content caps at 440px with 24px page padding; the heading uses 30px/1.2 and −0.7px tracking, and body copy 16px/1.6. One full-width 56px action refreshes offline files, then becomes Open game after success. Status copy wraps long content; a failed refresh offers Try again. Keep recovery visually simple and preserve saved games and notes.
 
 ## Elevation & Depth
 
@@ -228,21 +306,21 @@ Depth is restrained. The dark table has one low ambient shadow; selected tiles l
 
 ## Shapes
 
-Keep the square board crisp with 3px outer corners inside the 12px table (9px on phones). Controls use 8–10px corners; selected mode tabs use 7px and compact move segments 6px. Switches use a 36×22px track with a 16px circular thumb. Dialogs use 16px corners (15px on phones); bottom sheets use 18px top corners only. The brand mark is an upright rounded knight tile, 34×38px / 10px corners, shrinking to 29×33px / 8px on phones.
+Keep the square board crisp with 3px outer corners inside the 12px table. Controls use 8–10px corners; selected mode tabs use 7px and compact move segments 6px. Switches use a 36×22px track with a 16px circular thumb, growing to 42×26px with a 20px thumb on phones. Dialogs use 16px corners; bottom sheets use 18px top corners only. The brand mark is an upright rounded knight tile, 34×38px with 10px corners on desktop and phone.
 
 Pieces are original inline Staunton-style SVGs in a shared 45-unit viewBox, with consistent 1.5-unit keylines. The rook crenellations, knight profile, bishop mitre, queen crown, and king cross remain distinct at phone size. Light and dark armies have separate fill, stroke, and detail colors. Concealed pieces retain the shield, inset, and question mark. Visible pieces fill 88% of a square; concealed pieces fill 78%. Do not replace hidden pieces with a silhouette that leaks their type.
 
 ## Components
 
-- **Buttons:** green filled primary (minimum height 50px, 49px on phones), soft-white bordered secondary (44px), transparent text action (44px), and rounded-square icon action (44×44px). Primary hover becomes teal; other hover fills use `line`. Disabled controls use opacity .38. The shared keyboard outline is 3px amber, offset 3px; square focus is inset 3px in board amber.
-- **Room field:** soft-white fill, 1px divider border, 8px radius, 13px 12px padding, uppercase 16px text with 2px tracking. Pair with the 77px-minimum Join action.
-- **Mode tabs and options:** a divider-tone track with 4px padding/gap contains the selected soft-white 7px-radius tile. Keep icons, semantic tab state, and the 42px minimum height. The Game options disclosure has top/bottom dividers and a 54px summary (52px phone); its chevron rotates when open. Difficulty uses a fine-bordered segmented group. Revealed kings uses a labeled switch with supporting text inside the disclosure.
-- **Player rows:** 10px army dot, name, small captured-piece strip, and right-aligned state. Active turn is yellow text, not a filled status pill. Captured icons are 16×18px (14×17px on phones). Do not add a second description row during play.
+- **Buttons:** green filled primary (minimum height 50px desktop / 56px phone), soft-white bordered secondary and transparent text actions (44px desktop / 48px phone), and rounded-square icon actions (44×44px desktop / 48×48px phone). Phone action labels use 16px; non-board touch buttons never fall below 48px height. Primary hover becomes teal; other hover fills use `line`. Disabled controls use opacity .38. The shared keyboard outline is 3px amber, offset 3px; square focus is inset 3px in board amber.
+- **Room field:** soft-white fill, 1px divider border, 8px radius, 13px 12px padding, uppercase 16px text with 2px tracking. On phones, use a 56px minimum field height, 18px text, and 14px padding. Pair with the 77px-minimum Join action (88px on phones).
+- **Mode tabs and options:** a divider-tone track with 4px padding/gap contains the selected soft-white 7px-radius tile. Keep icons, semantic tab state, and the 42px desktop minimum height. Phone tabs place 22px icons above their labels with 68px minimum height. The Game options disclosure has top/bottom dividers and a 54px summary (68px phone, with the current options on its own line); its chevron rotates when open. Difficulty uses a fine-bordered segmented group. Revealed kings uses a labeled switch with supporting text inside the disclosure.
+- **Player rows:** 10px army dot, name, small captured-piece strip, and right-aligned state. Active turn is yellow text, not a filled status pill. Captured icons are 16×18px (18×20px on phones). Do not add a second description row during play.
 - **Board:** selection turns yellow; last-move origin/destination use the paired tinted fills. Legal empty destinations show a 23% dot, captures a 91% ring with a 3px yellow stroke. Hover uses a translucent white overlay. Coordinates stay outside squares. Arrow keys follow the visible orientation, and re-rendering retains focus or supplies a meaningful next-action fallback.
-- **Match dock:** Move/Bluff shares one tonal track. Move is a raised white tile; active Bluff is yellow without shadow. Challenge, Moves, and More combine 20px icons with 10px labels; unavailable actions dim. Review replaces the move selector with Review moves / Confirm result / More. Penalty shows a concise piece-selection instruction plus Moves/More. A finished game uses a short result, Play again, and Moves.
-- **Moves and More:** use the responsive dialog/sheet surface. Moves has paired move columns, alternating tonal rows, per-move challenge actions when applicable, and an offence summary. More lists zen, sound, private guesses, available practice tools, room invitation, rules, install, and resignation; 51px minimum menu rows, left icons, and right-aligned state text keep it compact. Resign alone uses danger text and a divider.
+- **Match dock:** Move/Bluff shares one tonal track. Move is a raised white tile; active Bluff is yellow without shadow. Challenge, Moves, and More combine 20px icons with 10px labels on desktop, growing to 24px icons with 14px labels in the two-row phone dock; unavailable actions dim. Review replaces the move selector with Review moves / Confirm result / More. Penalty shows a concise piece-selection instruction plus Moves/More. A finished game uses a short result, Play again, and Moves.
+- **Moves and More:** use the responsive dialog/sheet surface. Moves has paired move columns, alternating tonal rows, per-move challenge actions when applicable, and an offence summary. More lists zen, sound, private guesses, available practice tools, room invitation, rules, install, and resignation; 51px minimum menu rows on desktop and 56px on phones, left icons, and right-aligned state text keep it compact. Phone menu labels use 16px, state text 14px, and icons 24px. Install uses the same sheet treatment, with readiness, progress, retry, and platform instructions in readable copy. Resign alone uses danger text and a divider.
 - **Privacy handoff:** hide the board and cover its complete frame with an opaque teal scrim, disable covered squares, and require the next player to uncover their army. The cover has one instruction and a yellow primary action.
-- **Reveal and motion:** moved pieces land over .25s from `translateY(-5px) scale(1.04)`; capture banners rise 12px and resolve a 2px blur over .4s; revealed pieces flip from `rotateY(90deg)` over .5s. All three use `cubic-bezier(.16,1,.3,1)`. Disclosure chevrons rotate over .2s; switch thumbs slide 14px over .15s. Toast transform and opacity transition over .2s. Reduced motion disables animations, transitions, and smooth scrolling on all elements/pseudo-elements.
+- **Reveal and motion:** moved pieces land over .25s from `translateY(-5px) scale(1.04)`; capture banners rise 12px and resolve a 2px blur over .4s; revealed pieces flip from `rotateY(90deg)` over .5s. All three use `cubic-bezier(.16,1,.3,1)`. Disclosure chevrons rotate over .2s; switch thumbs slide 14px on desktop / 16px on phones over .15s. Toast transform and opacity transition over .2s. Reduced motion disables animations, transitions, and smooth scrolling on all elements/pseudo-elements.
 
 ## Do's and Don'ts
 
@@ -251,6 +329,8 @@ Pieces are original inline Staunton-style SVGs in a shared 45-unit viewBox, with
 - **Do** default to zen, keep secondary controls in sheets, and preserve review and penalty actions in the dock.
 - **Do** retain recognizable Staunton silhouettes and shield-shaped concealed identities.
 - **Do** preserve keyboard focus, opaque handoff coverage, safe-area spacing, and reduced-motion behavior.
+- **Do** keep phone non-board controls at least 48px high, primary actions at least 56px high, and the two-row dock readable in portrait and short landscape.
+- **Do** put phone setup controls before the board and allow vertical scroll to preserve playable landscape squares.
 
 ### Don't:
 - **Don't** introduce cartoon mascots or formal tournament ornament.
